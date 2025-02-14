@@ -1,0 +1,14 @@
+#include <iostream>
+#include <cstring> 
+
+int main() {
+    char str1[] = "Hola";
+    char str2[10];
+
+    strcpy(str2, str1);  
+
+    std::cout << "Cadena 1: " << str1 << std::endl;
+    std::cout << "Cadena 2: " << str2 << std::endl;
+
+    return 0;
+}
